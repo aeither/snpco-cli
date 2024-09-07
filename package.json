@@ -1,0 +1,26 @@
+{
+	"name": "minimal-cli",
+	"version": "0.1.0",
+	"description": "A minimal CLI example combining ora, prompts, kolorist, and commander",
+	"type": "module",
+	"bin": {
+		"awesome-cli": "./dist/index.js"
+	},
+	"scripts": {
+		"build": "tsup",
+		"dev": "tsup --watch",
+		"start": "node dist/index.js"
+	},
+	"dependencies": {
+		"commander": "^12.1.0",
+		"kolorist": "^1.8.0",
+		"ora": "^8.0.1",
+		"prompts": "^2.4.2"
+	},
+	"devDependencies": {
+		"@types/node": "^20.5.0",
+		"@types/prompts": "^2.4.9",
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.2"
+	}
+}
