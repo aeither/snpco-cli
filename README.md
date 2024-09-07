@@ -1,4 +1,8 @@
-# minimal-cli
+# Snap Copy
+
+A minimal CLI example combining ora, prompts, kolorist, and commander.
+
+## Installation
 
 To install dependencies:
 
@@ -6,10 +10,40 @@ To install dependencies:
 bun install
 ```
 
-To run:
+## Usage
+
+To build the project:
 
 ```bash
-bun run index.ts
+bun run build
 ```
 
-This project was created using `bun init` in bun v1.0.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+To run the CLI:
+
+```bash
+bun run start greet
+```
+
+## Development
+
+For development:
+
+Watch for changes and rebuild:
+
+```bash
+bun run dev
+```
+
+In another terminal, test the CLI:
+
+```bash
+bun run start greet
+```
+
+This project uses Bun, a fast all-in-one JavaScript runtime and toolkit.
+
+## Publish
+
+```bash
+bun run publish
+```

@@ -8,7 +8,7 @@ import prompts from "prompts";
 const program = new Command();
 
 program
-	.name("awesome-cli")
+	.name("snpco")
 	.description(
 		"A minimal CLI example combining ora, prompts, kolorist, and commander",
 	)
@@ -32,7 +32,7 @@ program
 
 		if (response.name) {
 			console.log(
-				green(`Hello, ${blue(response.name)}! Welcome to the awesome CLI.`),
+				green(`Hello, ${blue(response.name)}! Welcome to the minimal CLI.`),
 			);
 		} else {
 			console.log(red("You didn't provide a name. Goodbye!"));
