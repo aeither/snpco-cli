@@ -39,4 +39,4 @@ program
 		}
 	});
 
-program.parse(process.argv);
+program.parse();
